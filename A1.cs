@@ -25,6 +25,13 @@ namespace ConsoleApplication4
                 Console.WriteLine(a - b);
                 Console.ReadKey();
             }
+            if (c == "*")
+            {
+                Console.WriteLine("=");
+                Console.WriteLine(a * b);
+                Console.ReadKey();
+            }
+           
            
                    
         }
